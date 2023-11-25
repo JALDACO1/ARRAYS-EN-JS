@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+    border-radius: 5px;
+    border: green 1px solid;
+    padding: 10px;
+}
+.content > div {
+    border: black 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
